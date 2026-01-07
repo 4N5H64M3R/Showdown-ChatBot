@@ -1,0 +1,8 @@
+@c4
+Connect Four
+start: Start a new game of Connect Four.
+join: Join an existing Connect Four game.
+play: Make a move in a game (e.g., ;c4 play [id], 4).
+end: Force end a game.
+refresh: Reload the game board.
+forfeit: Surrender the game.
