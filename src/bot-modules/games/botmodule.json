@@ -11,7 +11,8 @@
 		"poke-games/commands.js",
 		"trivia/commands.js",
 		"uno/commands.js",
-		"wordgames/commands.js"
+		"wordgames/commands.js",
+		"connect-four/commands.js",
 	],
 	"permissions": {
 		"games": {
@@ -40,7 +41,9 @@
 		"./uno/commands.translations",
 		"./wordgames/anagrams.translations",
 		"./wordgames/hangman.translations",
-		"./wordgames/commands.translations"
+		"./wordgames/commands.translations",
+		"./connect-four/connect-four.translations",
+		"./connect-four/commands.translations",
 	],
 	"description": "A collection of chat games for a PS bot"
 }
