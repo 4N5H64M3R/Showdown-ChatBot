@@ -27,10 +27,10 @@ Config.Data_Mode = "RAW";
 
 Config.MYSQL = Object.create(null);
 
-Config.MYSQL.host = "";
+Config.MYSQL.host = process.env.DB_HOST || "";
 
-Config.MYSQL.user = "";
+Config.MYSQL.user = process.env.DB_USER || "";
 
-Config.MYSQL.password = "";
+Config.MYSQL.password = process.env.DB_PASSWORD || "";
 
-Config.MYSQL.database = "";
+Config.MYSQL.database = process.env.DB_NAME || "";
