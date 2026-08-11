@@ -21,7 +21,7 @@ Config.Static_Admin_Account_Password = "";
  * RAW - Data is stored as flat files
  * MYSQL - Data is stored in a remote MYSQL database
  */
-Config.Data_Mode = process.env.DB_MODE || "";
+Config.Data_Mode = "MYSQL";
 
 /* MYSQL */
 
